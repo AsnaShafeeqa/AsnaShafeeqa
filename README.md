@@ -68,5 +68,26 @@ for key in question_bank:
     print("Sorry that was an incorrect answer.")
     #IF you want have a negative marking as well.
 print("Your final score is", score)
-  
+
+
+![image](https://user-images.githubusercontent.com/86703952/135854925-eef9aee1-bed4-4de5-9474-f714bf750776.png)
+
+# user login is a method to check whether the user has an ID in my website
+
+users={"testuser1":"password1",
+       "testuser2":"password2",       
+       "testuser3":"password3"}
+username=input("Username:") #Asna        #testuser1
+password=input("Password:") #password1   #password1
+
+
+getpassword=users.get(username, "User Not Found") #users.get(username)=value
+print(getpassword)
+#In the first case print shows user not found
+#In the second case print shows password1
+
+if getpassword==password:
+  print("Login successful")
+else:
+  print("Login unsuccessful, pls Sign Up")
 
