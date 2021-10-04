@@ -8,6 +8,7 @@
 AsnaShafeeqa/AsnaShafeeqa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 
+send it to hello@givemefive.ai
 
 #Asna's First Project for GiveMeFive
 print("Dearest reader, It has come to this Author's notice that you, who could possibly be a budding young fantasizer like me, are in search of the right book to start off your journey with. And it is with infinite amiability and on my side and palpable interest on yours, that we travel through this virtual library, where I shall be your virtual guide to get you hooked up with the \"parfaite\" novella! Bon voyage!") 
