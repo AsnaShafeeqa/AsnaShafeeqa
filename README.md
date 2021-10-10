@@ -92,3 +92,56 @@ if getpassword==password:
 else:
   print("Login unsuccessful, pls Sign Up")
 
+so i tried thinking differently about what could make an reader interested. This is what i came up with:
+Which type of book they like
+How would they want their main character to be like
+Where would they like the book to be set
+What challenge would they like to see their protagonist overcome
+
+
+
+question_bank={1:"Pick a genre :)",
+               2:"If you had to set a scene of your liking where would it be?",
+               3:"Which trait would you most admire/ look forward to exploring?",
+               4:"What sort of quest your protagonist likely set their heart on?"}
+               
+               
+options_bank={1:["A)Literary Fiction and General", "B)Action and Adventure", "C)Classics",
+             "D)Crime, Thrillers and Mysteries",
+             "E)Romance",
+             "F)Biographical/ Autobiographical/ Historical"],
+             2:["A)A vibrant and lively neighbourhood in a city.",
+             "B)An era from the past.",
+             "C)An sea farer's sail.",
+             "D)An old dilapitaded town with new beginnings",
+             "E)A surreal destination with magic in the air."],
+             3:["A)Bravery",
+             "B)The element of surprise",
+             "C)Love",
+             "D)Supernatural",
+             "E)Friendship",
+             "F)None"],
+             4:["A)A mundane whose life suddenly changes "]}
+
+count=1
+for key in question_bank:
+ print("Q", count, ")", question_bank.get(key))
+ count+=1
+ list_options=options_bank.get(key)
+ for option in list_options:
+   print(option)
+ print("\n")
+ name=print(input("Chose an option"))
+ 
+if name=="a":
+   print("Love")
+ 
+ 
+
+
+
+
+
+
+
+
